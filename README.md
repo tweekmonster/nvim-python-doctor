@@ -17,7 +17,7 @@ curl -fsSL https://raw.githubusercontent.com/tweekmonster/nvim-python-doctor/mas
 
 ## Example Output:
 
-```shell
+```markdown
 Include the output below this line in your Github issues.
 
 
