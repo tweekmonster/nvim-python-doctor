@@ -182,7 +182,7 @@ test_nvim() {
     echo -n "\`$nvim_package\`"
     if [[ "$nvim_package" != "$python_client_latest" ]]; then
       if [[ $is_pyenv -eq 1 ]]; then
-        messages+=("FIX: The pyenv package is outdated in the pyenv installation for \`$exe\`.")
+        messages+=("FIX: The pyenv package for neovim is outdated in the pyenv installation for \`$exe\`.")
       else
         messages+=("FIX: Upgrade the neovim package with: \`pip${python_version%%.*} install -U --user neovim\`.")
       fi
