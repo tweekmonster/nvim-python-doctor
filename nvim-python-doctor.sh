@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 need_py2=0
 need_py3=0
 upgrade_py32=0
