@@ -199,7 +199,7 @@ check_remote_plugins() {
   rtp_tempfile="$(mktempfile)"
   $nvim --headless \
         +"redir! > $tempfile" \
-        +"silent echo resolve(\$MYVIMRC)" \
+        +"silent echo \$MYVIMRC" \
         +"redir END" \
         +"redir! > $rtp_tempfile" \
         +"silent echo join(map(split(&rtp, ','), 'resolve(v:val)'), \"\\n\")" \
