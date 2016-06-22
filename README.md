@@ -1,5 +1,7 @@
 :warning: **NOTICE: This has been ported to `:CheckHealth` command that ships with Neovim and it is more informative!**
 
+If you are using a distribution package and can't get the latest version of Neovim yet, you can install the following plugin to get the `:CheckHealth` command: https://github.com/tweekmonster/nvim-checkhealth
+
 # ~~Neovim Python Doctor~~
 
 ~~Display diagnostic information about your Python installations and how they are
